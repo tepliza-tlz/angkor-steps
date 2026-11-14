@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angkor Steps — Project Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var t = "dark";
+      try { t = localStorage.getItem("as_theme") || "dark"; } catch (e) {}
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><img class="logo" src="logo.svg" alt="Angkor Steps logo"><span class="brand-text">Angkor Steps</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Dashboard</a>
+        <a href="https://angkor-stepsbytlz.netlify.app/" target="_blank" rel="noopener">Live Site</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-logo" src="logo.svg" alt="Angkor Steps logo">
+      <h1>Final-Year Project Portfolio — <span>Angkor Steps</span></h1>
+      <p>A stock &amp; inventory management system for a Cambodian shoe shop, built across three connected parts: an AI assistant, a spreadsheet database, and a live web dashboard.</p>
+      <a class="btn" href="https://angkor-stepsbytlz.netlify.app/" target="_blank" rel="noopener">View Live Website</a>
+      <a class="btn ghost" href="index.html">Open Dashboard</a>
+      <p class="note" style="color:#A4AEC6;">Author: Tep Liza &nbsp;·&nbsp; Angkor Steps — shoe shop (Men, Women &amp; Kids footwear)</p>
+    </section>
+
+    <section class="stats">
+      <div class="stat-card">
+        <div class="stat-icon tone-blue"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg></div>
+        <div class="stat-body"><div class="stat-label">Products tracked</div><div class="stat-value">54</div></div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon tone-cyan"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg></div>
+        <div class="stat-body"><div class="stat-label">Project parts</div><div class="stat-value">3</div></div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon tone-purple"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg></div>
+        <div class="stat-body"><div class="stat-label">Live website pages</div><div class="stat-value">5</div></div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon tone-danger"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></div>
+        <div class="stat-body"><div class="stat-label">Low-stock alerts (live)</div><div class="stat-value">6</div></div>
+      </div>
+    </section>
+
+    <h2 class="section-title">The 3 Parts</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;">
+      <section class="card">
+        <h2>1 · Claude AI</h2>
+        <p class="note" style="margin-top:6px;">A Claude Project with a Knowledge Base (product list + stock rules). Produced two AI-written documents — a <b>Stock SOP</b> and a <b>Monthly Stock Report</b> — edited for Khmer context, plus a <b>Prompt Log</b> of 11+ prompts.</p>
+      </section>
+      <section class="card">
+        <h2>2 · Google Sheets</h2>
+        <p class="note" style="margin-top:6px;">A spreadsheet "database" with 54 products, live formulas (stock value, status, current stock), a bar chart, and <b>Apps Script</b> that sends an automatic low-stock email alert.</p>
+      </section>
+      <section class="card">
+        <h2>3 · Website</h2>
+        <p class="note" style="margin-top:6px;">A live, mobile-responsive admin dashboard with Dashboard analytics, Products, Stock In/Out, Sales history, and Settings — deployed on Netlify and saved in Git.</p>
+      </section>
+    </div>
+
+    <section class="card" style="margin-top:16px;">
+      <h2>Key Features</h2>
+      <div class="act-list" style="margin-top:10px;">
+        <div class="act-item"><span class="act-dot"></span><span>Futuristic neon glassmorphism design with <b>light and dark mode</b></span></div>
+        <div class="act-item"><span class="act-dot"></span><span>Live dashboard: animated stat cards, category bar chart, inventory donut chart</span></div>
+        <div class="act-item"><span class="act-dot"></span><span>Product search, filter by gender/category/low-stock, and sorting</span></div>
+        <div class="act-item"><span class="act-dot"></span><span>Stock In / Stock Out that updates stock across the whole site and persists in the browser</span></div>
+        <div class="act-item"><span class="act-dot"></span><span>Real sales history with units sold and revenue</span></div>
+        <div class="act-item"><span class="act-dot"></span><span>Configurable low-stock threshold, riel exchange rate, and theme</span></div>
+        <div class="act-item"><span class="act-dot"></span><span>Prices shown in US dollars with riel (≈ 4,100 ៛ = $1)</span></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Tech Stack</h2>
+      <p class="note" style="margin-top:6px;"><b>Frontend:</b> HTML, CSS (glassmorphism), vanilla JavaScript — no frameworks or external dependencies.<br>
+      <b>Data &amp; storage:</b> Google Sheets + Apps Script, browser localStorage.<br>
+      <b>AI:</b> Claude (Project + Knowledge Base).<br>
+      <b>Hosting:</b> Netlify, versioned on GitHub.</p>
+    </section>
+
+    <section class="card">
+      <h2>Links</h2>
+      <p class="note" style="margin-top:6px;">Live website: <a href="https://angkor-stepsbytlz.netlify.app/" target="_blank" rel="noopener" style="color:#00D9FF;">https://angkor-stepsbytlz.netlify.app/</a><br>
+      GitHub repository: <a href="#" target="_blank" rel="noopener" style="color:#00D9FF;">[add your GitHub repo URL here]</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">Angkor Steps — Final-Year Project Portfolio · Tep Liza</footer>
+</body>
+</html>
