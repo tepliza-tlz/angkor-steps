@@ -74,10 +74,10 @@ No build step or server needed. Just open `index.html` in any modern browser.
 3. No build command and no publish directory are required (static site).
 4. Deploy.
 
-**Live URL:** *[add your Netlify URL after deploying]*, e.g. `https://angkor-steps.netlify.app`
+**Live URL:** https://angkor-stepsbytlz.netlify.app
 
 ---
 
 ## Author
 
-Angkor Steps — final-project.
+Angkor Steps — final-project-by Tepliza.
